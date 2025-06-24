@@ -1,5 +1,13 @@
-国内访问github网站或者git clone时，时不时会出现无响应。换成镜像站方法不稳定，这里采用更改hosts文件解决。
+---
+title: Ubuntu2204版本国内git clone失败解决办法
+date: 2025-06-17 16:49:00 +0800
+categories: [Git]
+tags: [Git]     
+---
+
 # 问题情况
+
+国内访问github网站或者git clone时，时不时会出现无响应。换成镜像站方法不稳定，这里采用更改hosts文件解决。
 
 ```bash
 ubuntu@virtual-machine:~/Desktop$ git clone https://github.com/XXX/xxx.git
